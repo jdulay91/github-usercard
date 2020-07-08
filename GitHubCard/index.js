@@ -39,7 +39,7 @@ const parentContainerCards = document.querySelector('.cards')
     user, and adding that card to the DOM.
 */
 
-const followersArray = ['jtwray','shighetari','tonomb','garybot','dustinmyers'];
+const followersArray = ['jtwray','yirano','MMendes24','StaceyLouis','OrlandoDavila'];
 followersArray.forEach(follower => {
   axios
  .get(`https://api.github.com/users/${follower}`)
