@@ -5,6 +5,7 @@ import axios from 'axios';
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
+const parentContainerCards = document.querySelector('.cards')
 const jullUserName = 'jdulay91'
  axios
  .get(`https://api.github.com/users/${jullUserName}`)
@@ -26,7 +27,7 @@ const jullUserName = 'jdulay91'
   STEP 4: Pass the data received from Github into your function,
     and append the returned markup to the DOM as a child of .cards
 */
-const parentContainerCards = document.querySelector('.cards')
+
 
 /*
   STEP 5: Now that you have your own card getting added to the DOM, either
